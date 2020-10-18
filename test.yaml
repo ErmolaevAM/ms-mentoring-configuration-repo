@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: erlx-config-service
+  profiles:
+    active=native:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://git.epam.com/Aleksandr_Ermolaev/ms-mentoring-config-repo.git
